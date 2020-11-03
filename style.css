@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,1,22,1) 0%);
+    background-position: center;
+    background-size: cover;
+}
+
+.image {
+    padding-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 80px;
+    opacity: 0.8;
+}
+
+  
+.text-container:hover .overlay {
+    opacity: 1;
+  }
+
+.overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgba(40, 40, 61, 0.5);
+}
+  
+  .text {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .userbox {
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      position: absolute;
+      background-color:rgba(1,1,22,1);
+      justify-content: center;
+
+  }
+
+  .userbox h1 {
+      font-size: 20pt;
+      color: white;
+  }
+
+  .userbox p {
+    font-size: 16pt;
+    color: white;
+  }
